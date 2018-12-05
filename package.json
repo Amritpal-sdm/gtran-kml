@@ -29,7 +29,7 @@
     "config": "^3.0.0",
     "elementtree": "^0.1.7",
     "md5": "^2.2.1",
-    "tokml": "^0.4.0",
+    "tokml": "github:Amritpal-sdm/tokml",
     "util.promisify": "^1.0.0"
   },
   "lint-staged": {
