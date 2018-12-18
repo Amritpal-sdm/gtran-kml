@@ -7,7 +7,7 @@
     "build": "babel src --out-dir dist",
     "test": "npm run build && mocha",
     "precommit": "lint-staged",
-    "prepublish": "npm test && npm run build"
+    "prepare": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/haoliangyu/gtran-kml#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "config": "^3.0.0",
+    "config": "^3.0.1",
     "elementtree": "^0.1.7",
     "md5": "^2.2.1",
     "tokml": "github:Amritpal-sdm/tokml",
@@ -42,7 +42,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "husky": "^1.2.0",
+    "husky": "^1.2.1",
     "lint-staged": "^8.1.0",
     "mocha": "^5.2.0",
     "prettier": "^1.15.3"
