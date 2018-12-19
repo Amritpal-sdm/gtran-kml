@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "test": "npm run build && mocha",
     "precommit": "lint-staged",
     "preinstall": "npm test && npm run build"
   },
